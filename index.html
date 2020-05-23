@@ -11,6 +11,12 @@
       integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
       crossorigin="anonymous"
     />
+    <style>
+      #loading,
+      #results {
+        display: none;
+      }
+    </style>
   </head>
   <body class="bg-dark">
     <div class="container">
@@ -62,9 +68,9 @@
               </div>
             </form>
             <!-- Loader Here -->
-            <!-- <div id="loading">
+            <div id="loading">
               <img src="img/loading.gif" alt="loading" />
-            </div> -->
+            </div>
             <!-- Results -->
             <div id="results" class="pt-4">
               <h5>Results</h5>
